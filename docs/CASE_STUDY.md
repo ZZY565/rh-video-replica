@@ -1,6 +1,6 @@
 # 案例：真实广告工艺段改编为概念咖啡广告
 
-[返回 README](../README.md) · [观看成片](https://github.com/ZZY565/rh-video-replica/raw/refs/heads/main/demo/mellow/final.mp4)
+[返回 README](../README.md) · [观看成片](https://github.com/ultimatech-cn/rh-video-replica/raw/refs/heads/main/demo/mellow/final.mp4)
 
 ## 任务定义
 

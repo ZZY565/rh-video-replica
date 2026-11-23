@@ -8,7 +8,7 @@
 
 ![MELLOW 概念咖啡广告落版](demo/mellow/poster.jpg)
 
-**[观看 15 秒演示 MP4](https://github.com/ZZY565/rh-video-replica/raw/refs/heads/main/demo/mellow/final.mp4)** · **[详细案例](docs/CASE_STUDY.md)** · **[下载 Skill 安装包](https://github.com/ZZY565/rh-video-replica/releases/latest)** · **[Skill 指令入口](SKILL.md)**
+**[观看 15 秒演示 MP4](https://github.com/ultimatech-cn/rh-video-replica/raw/refs/heads/main/demo/mellow/final.mp4)** · **[详细案例](docs/CASE_STUDY.md)** · **[下载 Skill 安装包](https://github.com/ultimatech-cn/rh-video-replica/releases/latest)** · **[Skill 指令入口](SKILL.md)**
 
 ## 能做什么
 
@@ -50,7 +50,7 @@
 Python **3.10+**。推荐使用虚拟环境：
 
 ```bash
-git clone https://github.com/ZZY565/rh-video-replica.git
+git clone https://github.com/ultimatech-cn/rh-video-replica.git
 cd rh-video-replica
 python3 -m venv .venv
 source .venv/bin/activate
