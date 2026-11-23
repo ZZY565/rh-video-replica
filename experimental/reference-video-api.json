@@ -1,0 +1,62 @@
+{
+  "1": {
+    "class_type": "LoadVideo",
+    "inputs": {
+      "file": "reference.mp4"
+    },
+    "_meta": {
+      "title": "01 上传参考视频｜总长≤15秒"
+    }
+  },
+  "2": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "product.png"
+    },
+    "_meta": {
+      "title": "02 上传商品图片"
+    }
+  },
+  "3": {
+    "class_type": "RH_AlibabaWan30ReferenceToVideo",
+    "inputs": {
+      "prompt": "制作15秒9:16竖屏咖啡品牌情绪广告。视频1仅参考四段镜头的节奏和景别顺序，完全删除参考视频中的所有文字、字幕、品牌和按钮，不照搬字形。图1决定目标咖啡杯、木桌、咖啡豆与暖色窗光的外观。0-3秒：白色陶瓷杯置于木桌，暖光斜照，缓慢推近；3-7秒：杯沿和咖啡表面细节特写，真实陶瓷与液体质感，轻微自然蒸汽；7-11秒：散落咖啡豆与咖啡粉的近景，极缓慢横移；11-15秒：回到完整白杯的干净品牌主视觉，杯子保持不动，镜头轻缓拉远。保持同一只白杯与木桌环境，杯口和把手不变形，咖啡颜色自然，不凭空加入人物、手或新器具。质感克制、自然摄影、柔和高光、暖棕与奶油白配色。画面上方留约三分之一干净空间用于后期排字。全片不生成任何可见文字、logo、字幕或图形按钮，无对白、无音乐。",
+      "resolution": "720P",
+      "aspectRatio": "9:16",
+      "duration": "15",
+      "fileUrl": "",
+      "linkUrl": "",
+      "audio": false,
+      "seed": 0,
+      "promptExtend": false,
+      "watermark": false,
+      "skip_error": false,
+      "video1": [
+        "1",
+        0
+      ],
+      "image1": [
+        "2",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "03 单模型参考改编｜一次调用"
+    }
+  },
+  "4": {
+    "class_type": "SaveVideo",
+    "inputs": {
+      "filename_prefix": "MirrorCut/raw",
+      "format": "auto",
+      "codec": "auto",
+      "video": [
+        "3",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "04 保存干净视频｜品牌文字后期合成"
+    }
+  }
+}

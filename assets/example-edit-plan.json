@@ -1,0 +1,27 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 25,
+  "brand": "YOUR BRAND",
+  "footer": "概念产品演示",
+  "music": "audio/approved-score.wav",
+  "shots": [
+    {
+      "kind": "video",
+      "source": "cloud/raw.mp4",
+      "start": 0,
+      "duration": 11.4,
+      "overlay": false
+    },
+    {
+      "kind": "image",
+      "source": "inputs/approved-product.png",
+      "duration": 3.6,
+      "layout": "editorial",
+      "headline": "你的品牌文案",
+      "subline": "只使用已核实事实",
+      "zoom_start": 1.02,
+      "zoom_end": 1.0
+    }
+  ]
+}

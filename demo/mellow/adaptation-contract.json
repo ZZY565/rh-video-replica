@@ -1,0 +1,146 @@
+{
+  "mode": "ad_structure_adaptation",
+  "full_ad_replica": false,
+  "reference": {
+    "origin": "real_commercial",
+    "title": "NESCAFE — The Life of a Coffee Bean",
+    "source_url": "https://kancilawards.com/winners/entry/2022/6539",
+    "full_duration_seconds": 75,
+    "full_media": "YOUR_LOCAL_ORIGINAL.mp4",
+    "experiment_media": "YOUR_LOCAL_EXCERPT.mp4"
+  },
+  "product": {
+    "name": "MELLOW COFFEE 概念产品",
+    "image": "demo/mellow/product-master.png",
+    "is_concept": true,
+    "provided_by_user": false,
+    "verified_claims": []
+  },
+  "scope": {
+    "reference_range_seconds": [
+      47,
+      62
+    ],
+    "output_duration_seconds": 15,
+    "aspect_ratio": "16:9",
+    "preserve": [
+      "工艺视觉递进",
+      "明暗/景别对比",
+      "各内容段的近似时间关系"
+    ],
+    "replace": [
+      "品牌与产品外观",
+      "音轨",
+      "原片人物身份",
+      "最后一段改为目标商品落版"
+    ],
+    "not_claimed": [
+      "75秒全片复刻",
+      "原品牌种植或可持续性主张",
+      "任意广告的一键自动复刻"
+    ]
+  },
+  "shots": [
+    {
+      "id": "A",
+      "output_start": 0,
+      "output_duration": 1.2,
+      "reference_start": 47,
+      "reference_end": 48.2,
+      "observed": "火焰、蒸汽与翻动咖啡豆的近景",
+      "transfer": "保留高温与运动的开场钩子；不沿用原品牌生产实录",
+      "target_visual": "暗色烘焙鼓中咖啡豆翻动，暖光与短暂蒸汽，画面不出现文字",
+      "acceptance": [
+        "明确看到咖啡豆与烘焙运动",
+        "没有把咖啡豆变成别的物体"
+      ],
+      "claims": []
+    },
+    {
+      "id": "B",
+      "output_start": 1.2,
+      "output_duration": 2.88,
+      "reference_start": 48.2,
+      "reference_end": 51.08,
+      "observed": "烘焙豆近景，金属取样勺进入豆层",
+      "transfer": "保留近景选择与工艺细节",
+      "target_visual": "一只金属取样勺从烘焙豆中缓慢取样，浅景深、暖色边光，只见手部",
+      "acceptance": [
+        "金属勺与咖啡豆可辨认",
+        "动作有起止而非静态照片缩放"
+      ],
+      "claims": []
+    },
+    {
+      "id": "C",
+      "output_start": 4.08,
+      "output_duration": 1.96,
+      "reference_start": 51.08,
+      "reference_end": 53.04,
+      "observed": "背光加工空间的建立镜头",
+      "transfer": "保留微距到空间建立的景别对比；作为概念场景，不宣称真实工厂",
+      "target_visual": "小型咖啡烘焙工作室，暖光穿过薄雾照亮机器轮廓，无脸部特写",
+      "acceptance": [
+        "出现与微距不同的空间景别",
+        "未复用原片人物身份或场景标志"
+      ],
+      "claims": []
+    },
+    {
+      "id": "D",
+      "output_start": 6.04,
+      "output_duration": 2.84,
+      "reference_start": 53.04,
+      "reference_end": 55.88,
+      "observed": "取样细节、光晕和操作检查的多角度画面",
+      "transfer": "简化为手部检查与新角度，降低人物复制依赖",
+      "target_visual": "只有一只戴黑色耐热手套的手在深色桌面转动装有咖啡豆的金属勺，严格不出现脸、身体或人物反射",
+      "acceptance": [
+        "动作与器具空间关系合理",
+        "无多余手指或不连续勺体"
+      ],
+      "claims": []
+    },
+    {
+      "id": "E",
+      "output_start": 8.88,
+      "output_duration": 2.52,
+      "reference_start": 55.88,
+      "reference_end": 58.4,
+      "observed": "咖啡豆和细小颗粒的转化/落下微距",
+      "transfer": "保留大颗粒到细颗粒的视觉转化；不借用速溶或产地功能主张",
+      "target_visual": "极近景咖啡豆落入黑色磨豆机，随后细腻咖啡粉从出粉口落下，真实重力与慢动作",
+      "acceptance": [
+        "咖啡豆到咖啡粉的转化可辨",
+        "没有无端变成水或其他粉末"
+      ],
+      "claims": []
+    },
+    {
+      "id": "F",
+      "output_start": 11.4,
+      "output_duration": 3.6,
+      "reference_start": 58.4,
+      "reference_end": 62,
+      "observed": "深色背景中的飞散咖啡颗粒微距",
+      "transfer": "有意替换为目标商品落版，形成独立广告闭环",
+      "target_visual": "图1的MELLOW黑色咖啡袋与象牙白咖啡杯完整出现在深棕台面，缓慢拉远，左上留排字空间",
+      "acceptance": [
+        "商品袋与白杯同时出现",
+        "MELLOW标签正确或采用已核对商品静帧落版",
+        "镜头稳定，适合品牌信息停留"
+      ],
+      "claims": []
+    }
+  ],
+  "success_policy": {
+    "timing_tolerance_seconds": 0.2,
+    "minimum_content_units_visible": 5,
+    "required": [
+      "F商品落版",
+      "无原片素材直接拼入新片",
+      "无原片音轨直接挪用"
+    ],
+    "visual_review_required": true
+  }
+}

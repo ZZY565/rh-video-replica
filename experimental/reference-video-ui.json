@@ -1,0 +1,332 @@
+{
+  "id": "a9676eae-c043-4d5b-9acb-123dfd06594a",
+  "revision": 0,
+  "last_node_id": 5,
+  "last_link_id": 3,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "LoadVideo",
+      "title": "01 参考视频（单段1–15秒）",
+      "pos": [
+        0,
+        0
+      ],
+      "size": [
+        360,
+        360
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "VIDEO",
+          "type": "VIDEO",
+          "links": [
+            1
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadVideo"
+      },
+      "widgets_values": [
+        "reference.mp4"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "title": "02 商品图片",
+      "pos": [
+        0,
+        420
+      ],
+      "size": [
+        360,
+        380
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            2
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "product.png",
+        "image"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "RH_AlibabaWan30ReferenceToVideo",
+      "title": "03 镜作｜参考结构 + 目标商品",
+      "pos": [
+        470,
+        0
+      ],
+      "size": [
+        530,
+        900
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video1",
+          "type": "VIDEO",
+          "link": 1
+        },
+        {
+          "name": "video2",
+          "type": "VIDEO",
+          "link": null
+        },
+        {
+          "name": "video3",
+          "type": "VIDEO",
+          "link": null
+        },
+        {
+          "name": "video4",
+          "type": "VIDEO",
+          "link": null
+        },
+        {
+          "name": "video5",
+          "type": "VIDEO",
+          "link": null
+        },
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 2
+        },
+        {
+          "name": "image2",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image3",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image4",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image5",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image6",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image7",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image8",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image9",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "image10",
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "name": "audio1",
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "audio2",
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "audio3",
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "audio4",
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "audio5",
+          "type": "AUDIO",
+          "link": null
+        },
+        {
+          "name": "api_config",
+          "type": "RH_OPENAPI_CONFIG",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "links": [
+            3
+          ]
+        },
+        {
+          "name": "url",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "response",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RH_AlibabaWan30ReferenceToVideo"
+      },
+      "widgets_values": [
+        "制作15秒9:16竖屏咖啡品牌情绪广告。视频1仅参考四段镜头的节奏和景别顺序，完全删除参考视频中的所有文字、字幕、品牌和按钮，不照搬字形。图1决定目标咖啡杯、木桌、咖啡豆与暖色窗光的外观。0-3秒：白色陶瓷杯置于木桌，暖光斜照，缓慢推近；3-7秒：杯沿和咖啡表面细节特写，真实陶瓷与液体质感，轻微自然蒸汽；7-11秒：散落咖啡豆与咖啡粉的近景，极缓慢横移；11-15秒：回到完整白杯的干净品牌主视觉，杯子保持不动，镜头轻缓拉远。保持同一只白杯与木桌环境，杯口和把手不变形，咖啡颜色自然，不凭空加入人物、手或新器具。质感克制、自然摄影、柔和高光、暖棕与奶油白配色。画面上方留约三分之一干净空间用于后期排字。全片不生成任何可见文字、logo、字幕或图形按钮，无对白、无音乐。",
+        "720P",
+        "9:16",
+        "15",
+        "",
+        "",
+        false,
+        0,
+        "fixed",
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": 4,
+      "type": "SaveVideo",
+      "title": "04 云端原片（回本地排字与配乐）",
+      "pos": [
+        1120,
+        0
+      ],
+      "size": [
+        430,
+        400
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "link": 3
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "SaveVideo"
+      },
+      "widgets_values": [
+        "MirrorCut/raw",
+        "auto",
+        "auto"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Note",
+      "title": "使用说明 / 验证状态",
+      "pos": [
+        1120,
+        500
+      ],
+      "size": [
+        430,
+        300
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "Node name for S&R": "Note"
+      },
+      "widgets_values": [
+        "候选图，依据2026-11-22官方节点契约构建。模型API已单独进行真实测试；本图尚需目标RunningHub环境核验节点版本与控件顺序。先上传reference.mp4及product.png并重新选择，再运行。只含一个付费生成分支。模型干净画面下载后，用Skill的render加入精确文字与配乐。JSON不含API密钥。"
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      3,
+      0,
+      "VIDEO"
+    ],
+    [
+      2,
+      2,
+      0,
+      3,
+      5,
+      "IMAGE"
+    ],
+    [
+      3,
+      3,
+      0,
+      4,
+      0,
+      "VIDEO"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.7,
+      "offset": [
+        60,
+        60
+      ]
+    },
+    "status": "candidate_not_platform_import_verified"
+  },
+  "version": 0.4
+}

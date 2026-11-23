@@ -1,0 +1,4 @@
+interface:
+  display_name: "镜作 · 广告结构改编"
+  short_description: "分析真实广告结构，结合商品素材与RunningHub生成新广告，交付时间证据和验收记录"
+  default_prompt: "使用 $rh-video-replica，把真实参考广告的指定片段改编为我的商品广告，明确保留与替换内容，交付成片、证据、费用和验收记录。"

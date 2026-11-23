@@ -1,0 +1,27 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "brand": "MELLOW / COFFEE",
+  "footer": "CONCEPT FILM · 概念产品演示",
+  "music": "original-craft-cue.wav",
+  "shots": [
+    {
+      "kind": "video",
+      "source": "raw.mp4",
+      "start": 0,
+      "duration": 11.4,
+      "overlay": false
+    },
+    {
+      "kind": "image",
+      "source": "product-master.png",
+      "duration": 3.6,
+      "layout": "editorial",
+      "headline": "慢一点，\n留给这一杯。",
+      "subline": "A MOMENT FOR YOUR COFFEE",
+      "zoom_start": 1.02,
+      "zoom_end": 1.0
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "final_review_completed": true,
+  "acceptance_status": "concept_demo_accepted_with_documented_deviations",
+  "generation_route_explanation": "Agent分析真实广告47–62秒并写新分镜；最终画面来自第二轮商品图+分镜生成，模型未接收原视频。前11.4秒为本次新云端视频，末3.6秒为核对后的商品主视觉轻动效加后期排字。",
+  "units": [
+    {
+      "id": "A",
+      "status": "partial",
+      "evidence_times": [
+        0.2,
+        0.8
+      ],
+      "observations": "翻豆动态、暖色金属与微距开场成立；没有明显蒸汽/火焰，弱于原片高温开场。",
+      "remedy": "保留动态翻豆，明确开场效果部分符合。"
+    },
+    {
+      "id": "B",
+      "status": "partial",
+      "evidence_times": [
+        1.7,
+        3.4
+      ],
+      "observations": "金属勺、完整咖啡豆和取样推进可辨；勺体主体稳定，画外操作者没有完整展示，器具驱动关系仍有生成感。",
+      "remedy": "保留已形成的取样动作，未宣称生产实录或全物理准确。"
+    },
+    {
+      "id": "C",
+      "status": "pass",
+      "evidence_times": [
+        4.6,
+        5.4
+      ],
+      "observations": "出现新设计的双机烘焙空间，与微距形成景别对比；没有原片人物脸。",
+      "remedy": ""
+    },
+    {
+      "id": "D",
+      "status": "pass",
+      "evidence_times": [
+        6.4,
+        7.6,
+        8.4
+      ],
+      "observations": "单只黑手套和勺体关系连续，无裸手多指和原人物脸；可见转动与落豆。",
+      "remedy": ""
+    },
+    {
+      "id": "E",
+      "status": "partial",
+      "evidence_times": [
+        9.1,
+        10.4,
+        11.1
+      ],
+      "observations": "豆子进入器具并转为较小颗粒落出，转换可辨；出粉器具更像概念研磨机构，粉粒偏粗，不是精确实机过程。",
+      "remedy": "保留为概念工艺视觉；不作为磨豆机功能演示或实物工厂证明。"
+    },
+    {
+      "id": "F",
+      "status": "pass",
+      "evidence_times": [
+        11.6,
+        13.2,
+        14.8
+      ],
+      "observations": "完整黑袋与白杯、正确MELLOW/COFFEE标签、稳定主视觉和后期准确文字。",
+      "remedy": "采用已核对商品主视觉的3.6秒轻微拉远落版，替代模型结尾；明确这是静帧后期动效。"
+    }
+  ],
+  "unit_counts": {
+    "visible": 6,
+    "fully_meets_intent": 3,
+    "partial": 3,
+    "failed": 0
+  },
+  "identity_review": "第二轮抽帧无原人物脸、原品牌标志或原片字幕；不使用第一轮镜头进入成片。",
+  "motion_review_method": "Agent reviewed 0.5s samples, source/target per-unit frames and boundary-neighbour frames. Full technical decode passed; sparse samples do not prove all-frame physical correctness.",
+  "audio": "Original procedural score, no original ad soundtrack, no voiceover. Synthesized cue is not recorded factory sound.",
+  "commercial_readiness": "Concept prototype; actual SKU facts, rights and client approval still needed before commercial release. No universal one-click replication claim."
+}
